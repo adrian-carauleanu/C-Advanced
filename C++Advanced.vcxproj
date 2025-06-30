@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClInclude Include="cArray.h" />
     <ClInclude Include="Deque.h" />
+    <ClInclude Include="Module1Test.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cArray.cpp" />
     <ClCompile Include="Deque.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Module1Test.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
