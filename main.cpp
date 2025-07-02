@@ -3,10 +3,16 @@
 //#include "Vector.h"
 //#include "Deque.h"
 //#include <list>
-
-
-#include "Module1Test.h"
-
+//#include <iostream>
+//#include <map>
+//#include <set>
+//#include <vector>
+//#include <string>
+//#include <list>
+//using namespace std;
+//#include "Module1Test.h"
+//#include "Set_Multiset.h"
+#include "Module2Test.h"
 //void module_1_test_16()
 //{
 //    vector<int> v1(4, 3);
@@ -30,13 +36,13 @@
 //    cout << v1.size() << endl;
 //}
 //
-//template <class T>
-//void print2(T obj)
-//{
-//    for (auto value : obj)
-//        cout << value << " ";
-//    cout << endl;
-//}
+template <class T>
+void print2(T obj)
+{
+    for (auto value : obj)
+        cout << value << " ";
+    cout << endl;
+}
 //
 //class AM
 //{
@@ -132,7 +138,66 @@ int main()
     //module_1_test_4();
     //module_1_test_5();
     //module_1_test_6();
-    module_1_test_7();
+    //module_1_test_7();
     //module_1_test_13();
+
+    //create_set();
+    //LAB_set_iterators();
+
+    //set_multiset_2_2_1_10();
+
+    //map<char, int> building1 = { { 'a', 30 },{ 'b', 40 } };
+    //map<char, int> building2 = { { 'a', 50 },{ 'b', 25 }, {'c', 11} };
+    //map<char, int> building3 = { { 'a', 20 },{ 'b', 35 } };
+    //map<int, map<char, int>> buildings = {
+    //    {1, building1 },
+    //    {2, building2 },
+    //    {3, building3 }
+    //};
+    //for (auto building : buildings)
+    //{
+    //    for (auto letters : building.second)
+    //    {
+    //        cout << "Building number: " << building.first
+    //            << " letter: " << letters.first << " has: "
+    //            << letters.second << " square meters." << endl;
+    //    }
+    //}
+
+    //int mynumbers[] = { 3,9,2,1,4 };
+    //vector<int> v(mynumbers, mynumbers + 5);
+    //set<int> myset(v.begin(), v.end());
+    //print2(myset);
+    //myset.insert(v.begin(), v.end());
+    //print2(myset);
+    //myset.erase(myset.lower_bound(2), myset.upper_bound(3));
+    //print2(myset);
+
+    //multiset<int, greater_equal<int>> mymultiset(v.begin(), v.end());
+    //print2(mymultiset);
+
+
+    //int mynumbers[] = { 3,9,2,4,4 };
+    //vector<int> v(mynumbers, mynumbers + 5);
+    //set<int> myset(v.begin(), v.end());
+    //print2(myset);
+    //myset.insert(v.begin(), v.end());
+    //print2(myset);
+    //if (myset.count(4) == 2)
+    //    myset.erase(4);
+    //print2(myset);
+    /*int mynumbers[] = { 3, 9, 0, 2, 1, 4, 5, 5 };
+    list<int> v(mynumbers, mynumbers + 8);
+    multiset<int> s1(v.begin(), v.end());
+    print2(s1);
+    if (s1.count(5) == 1)
+        s1.erase(5);
+    print2(s1);
+    for (multiset<int>::iterator i = s1.begin(); i != s1.end(); i++)
+        cout << *i << ", ";*/
+
+    //module_2_q_2();
+    //module_2_q_11();
+    module_2_q_14();
     return 0;
 }
