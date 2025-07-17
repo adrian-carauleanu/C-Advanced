@@ -13,6 +13,7 @@
 //#include "Module1Test.h"
 //#include "Set_Multiset.h"
 #include "Module2Test.h"
+#include "LeetCode.h"
 //void module_1_test_16()
 //{
 //    vector<int> v1(4, 3);
@@ -198,6 +199,20 @@ int main()
 
     //module_2_q_2();
     //module_2_q_11();
-    module_2_q_14();
+    // module_2_q_14();
+
+    //int a = 10;
+    //int& b = a;
+    //cout << "a=" << a << endl;
+    //cout << "&a=" << &a << endl;
+    //cout << "b=" << b << endl;
+    //cout << "&b=" << &b << endl;
+    //int* p = &a;
+    //cout << "p=" << p << endl;
+    //cout << "&p=" << &p << endl;
+    //cout << "*p=" << *p << endl;
+
+    test_iterate_arr_with_pointer();
+
     return 0;
 }

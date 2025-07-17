@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="cArray.h" />
     <ClInclude Include="Deque.h" />
+    <ClInclude Include="LeetCode.h" />
     <ClInclude Include="Module1Test.h" />
     <ClInclude Include="Module2Test.h" />
     <ClInclude Include="Set_Multiset.h" />
@@ -153,6 +154,7 @@
     <ClCompile Include="Module1Test.cpp" />
     <ClCompile Include="Module2Test.cpp" />
     <ClCompile Include="Set_Multiset.cpp" />
+    <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
